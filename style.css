@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: poppins;
+}
+header{
+   z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    color: white;
+    background-color: black;
+}
+.sp1{
+   font-size: 18px;
+   font-weight: 900;
+   margin-right: 30px;
+}
+.sp2{
+    text-decoration: underline;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.head-pa{
+    font-size: 15px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   top: 50px;
+   gap: 23rem;
+   z-index: 1;
+}
+.logo1{
+    width: 130px;
+}
+.logo2{
+    width: 40px;
+}
+.opt{
+    display: flex;
+}
+.opt{
+    gap: 30px;
+    color: white;
+    font-weight: 600;
+}
+.first{
+    position: relative;
+    top: 50px;   
+}
+.first-container{
+    width:100%;
+    height: 680px;
+    position: absolute;
+}
+.first-mo{
+    color: white;
+    position: absolute;
+    top: 4rem;
+    text-align: center;
+    margin-left: 38rem;
+}
+.mo-head{
+ font-size: 40px;
+ font-weight: 600;
+}
+.mo-para{
+ font-size:20px ;
+ font-weight: 600;
+}
+.first-la{
+    color: white;
+    position: absolute;
+    top: 34rem;
+ margin-left: 25rem;
+}
+.btn{
+    gap: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-1{
+    border-radius: 8px;
+    width: 250px;
+    height: 40px;
+    color: black;
+   background-color: rgb(255, 255, 255);
+}
+.btn-2{
+   border-radius: 8px;
+    width: 250px;
+    height: 40px;
+    opacity: 0.5;
+    background-color: gray;
+}
+.btn-para1{
+    
+    font-weight: 900;
+    text-align: center;
+    padding: 7px;
+}
+.btn-para2{
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    padding: 7px;
+}
+.sp3{
+    text-decoration: underline;
+}
+.second{
+ position: relative;
+ top: 45.5rem;
+}
+.second-container{
+    width:100%;
+    height: 710px;
+object-fit: cover;
+}
+.second-mo{
+    color: rgb(1, 1, 1);
+    position: absolute;
+    top: 4rem;
+    text-align: center;
+    margin-left: 38rem;
+}
+.second-la{
+    color: black;
+}
+.third{
+    position: relative;
+    top: 45rem;
+   }
+.third-container{
+   width:100%;
+   height: 710px;
+object-fit: cover;
+}
+.third-mo{
+   color: rgb(1, 1, 1);
+   position: absolute;
+   top: 4rem;
+   text-align: center;
+   margin-left: 35rem;
+}
+.third-la{  
+    position: absolute;
+    top: 34rem;
+ margin-left: 18rem;
+}
+.fourth{
+    position: relative;
+    top: 44.5rem;
+}
+.fourth-container{
+    width:100%;
+    height: 710px;
+ object-fit: cover;
+}
+.fifth{
+    position: relative;
+    top: 44rem;
+}
+.fifth-container{
+    width:100%;
+    height: 710px;
+ object-fit: cover;
+}
+.fifth-la{
+    position: absolute;
+    top: 36rem;
+ margin-left: 31rem;
+}
+.sixth{
+    position: relative;
+    top: 43.5rem;
+}
+.sixth-container{
+    width:100%;
+    height: 710px;
+ object-fit: cover;
+}
+.sixmo-para{
+    font-size:20px ;
+    font-weight: 600;
+    text-decoration: underline;  
+}
+.seventh{
+    position: relative;
+    top: 43rem;
+}
+.seventh-container{
+    width:100%;
+    height: 710px;
+ object-fit: cover;
+}
+.eighth{
+    position: relative;
+    top: 42.5rem;
+}
+.eighth-container{
+    width:100%;
+    height: 710px;
+ object-fit: cover;
+}
+.ninth{
+    position: relative;
+    top: 42rem;
+}
+.ninth-container{
+    width:100%;
+    height: 710px;
+ object-fit: cover;
+}
+.ninth-la{
+    position: absolute;
+    top: 36rem;
+ margin-left: 29rem;
+}
+.nin-li{
+    text-align: center;
+    color: white;   
+}
+@media (max-width:768px){
+    header{
+        height: 110px;
+        overflow: hidden;
+        width: auto;
+    }
+   
+    nav{
+        width: auto;
+       display: none;
+    }
+    .first-container{
+        width:1215px;
+       overflow: hidden;
+    }
+    .btn{
+        margin-left: -50px;
+    }
+   
+    .second-container{
+       
+        overflow: hidden;
+        width:1215px;
+    }
+    .third-container{
+        overflow: hidden;
+        width:1215px;
+    }
+    .fourth-container{
+        overflow: hidden;
+        width:1215px;
+    }
+    .fifth-container{
+        overflow: hidden;
+        width:1215px;
+    }
+    .sixth-container{
+        overflow: hidden;
+        width:1215px;
+    }
+    .seventh-container{
+        overflow: hidden;
+        width:1215px;
+    }
+    .eighth-container{
+        overflow: hidden;
+        width:1215px;
+    }
+    .ninth-container{
+        overflow: hidden;
+        width:1215px;
+    }
+    .first-mo{
+        width: 500px;
+        margin-left: 350px;
+    }
+    .second-mo{
+        width: 500px;
+        margin-left: 350px;
+    }
+    .third-mo{
+        margin-left: 350px;
+        width: 500px;
+    }
+    .first-pa{
+        margin-left: 50px;
+    }
+    .first-la{
+        width: 900px;
+       margin-left: 170px;
+    }
+    .second-la{
+        width: 1000px;
+    }
+    .third-la{
+        margin-left: 130px;
+    }
+    .fifth-la{
+        margin-left: 380px;
+    }
+    .ninth-la{
+       margin-left: 1px;
+    }
+   .nin-li{
+    display: block;
+    padding: 10px;
+    margin-top: 50px;
+    width:1190px;
+    background-color: black;
+   }
+}
